@@ -1,4 +1,4 @@
-/* var canvas = document.getElementById("myCanvas");
+var canvas = document.getElementById("myCanvas");
 var ctx = canvas.getContext("2d");
 
 var ballRadius = 8;
@@ -131,7 +131,7 @@ function drawLives() {
   ctx.fillText("Lives: " + lives, canvas.width - 65, 20);
 }
 
-function draw() {
+export function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBall();
   drawPaddle();
@@ -179,4 +179,3 @@ function draw() {
   requestAnimationFrame(draw);
 }
 draw();
- */
