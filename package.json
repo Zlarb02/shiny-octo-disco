@@ -40,10 +40,6 @@
       "node_modules/",
       "*.test.ts",
       "src.sample/*"
-    ],
-    "rules": {
-      "@typescript-eslint/explicit-function-return-type": 2,
-      "@typescript-eslint/no-inferrable-types": 0
-    }
+    ]
   }
 }
